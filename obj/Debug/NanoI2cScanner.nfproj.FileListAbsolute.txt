@@ -1,0 +1,1 @@
+C:\Users\joshf\Downloads\Samples-main\Samples-main\samples\I2C\NanoI2cScanner\bin\Debug\NanoI2cScanner.exe
