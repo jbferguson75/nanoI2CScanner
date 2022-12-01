@@ -18,9 +18,9 @@ Debug.WriteLine("Hello from I2C Scanner!");
 SpanByte span = new byte[1];
 bool isDevice;
 // On a normal bus, not all those ranges are supported but scanning anyway
-//for (int i = 0; i <= 0xFF; i++)
+for (int i = 0; i <= 0xFF; i++)
 {
-    int i = 0x3C;
+    //int i = 0x3C;
     isDevice = false;
     I2cDevice i2c = new(new I2cConnectionSettings(1, i));
     // What we write is not important
